@@ -1,0 +1,19 @@
+:root{
+    --orangcolor : rgb(142, 116, 67);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    font:  sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--orangcolor);
+
+
+}
+nav.img{
+    height: 15%;
+    width: 32%;
+}
