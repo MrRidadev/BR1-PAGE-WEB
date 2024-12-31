@@ -1,19 +1,87 @@
-:root{
-    --orangcolor : rgb(142, 116, 67);
-}
+
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     font:  sans-serif;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: var(--orangcolor);
+    align-items: center;
+    
+    padding: 2px 10px;
+    background-color:#FDF0EA;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    padding: 4px;
+    text-decoration: none;
+    
+}
 
+span{
+    color: orange;
+}
 
+section {
+    display: flex;
+    padding: 50px 50px;
+    gap: 300px;
+}
+.divSection{
+    margin-top: 30px;
+}
+section div  h1{
+    font-weight: 1000px;
+}
+button{
+    background-color: orange;
+    color: #ffff;
+    border: none;
+    border-radius: 5px ;
+    padding: 5px;
+    
+}
+#Explorer{
+    margin-top: 20px;
+}
+button:hover{
+    background-color:rgb(222, 219, 214) ;
+}
+#image1{
+    width: 400px;
+    height: 400px;
 }
 nav.img{
     height: 15%;
     width: 32%;
+   
+}
+h2{
+    margin: 10px;
+    margin-top: 30px;
+    padding-left: 70px;
+}
+
+.devgroup{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+
+}
+.card{
+    width: 200px;
+}
+footer{
+    background-color:#FDF0EA ;
+    
+    padding: 30px;
+    margin-top: 30px;
+    
 }
